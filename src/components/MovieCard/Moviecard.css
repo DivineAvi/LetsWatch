@@ -1,0 +1,15 @@
+.movie-card-container:hover .card-gradient {
+    opacity: 1;
+}
+.movie-card-container:hover .card-stats {
+        top: 0;
+        
+}
+.movie-card-description {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    display: block;
+    width: 100%;
+    max-width: 100%;
+}
