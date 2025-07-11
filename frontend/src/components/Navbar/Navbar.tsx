@@ -1,7 +1,7 @@
 import { useState } from "react"
 import { NavLink } from "react-router-dom"
 export default function Navbar() {
-    const [NavOpen, SetNavOpen] = useState<Boolean>(false);
+    const [NavOpen, SetNavOpen] = useState<boolean>(false);
 
     return (
         <div className={`${NavOpen?'h-70':''} w-full h-20 fixed top-0 text-white/70 p-2 z-50 transition-all duration-1000`}>
